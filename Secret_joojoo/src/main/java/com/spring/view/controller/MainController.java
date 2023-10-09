@@ -44,7 +44,7 @@ public class MainController {
 		oVO.setSk("TODAY_TOTAL"); // 오늘 매출 
 		OrderVO todayTotal = orderService.selectOne(oVO);
 
-		oVO.setSk("YESTERDAY_TOTAL"); // 오늘 매출 
+		oVO.setSk("YESTERDAY_TOTAL"); // 어제 매출 
 		OrderVO yesterdayTotal = orderService.selectOne(oVO);
 
 		oVO.setSk("TODAY_PRODUCTPRICE"); // 오늘 상품 매출
